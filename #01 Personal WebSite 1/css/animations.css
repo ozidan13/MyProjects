@@ -1,0 +1,41 @@
+/*
+    animation : none 0 ease 0 1 normal none runing
+    
+    [ animatin name             :  animation name                          ]
+    [ animatin duration         :  ex ==> 5s                               ]
+    [ animatin timing function  :  ease / ease-in / ease-in-out / linear   ]
+    [ animatin delay            :  ex ==> 5s                               ]
+    [ animatin iteration        :  ex ==> number , infinite                ]
+    [ animatin direction        :  normal , alternate -Restart in the end- ]
+    [ animatin fill- mode       :  forwords , backwords , both             ]
+    [ animatin play-state       :  runing.puased                           ]
+*/ 
+
+/*Start animation effects*/
+
+@keyframes arrows_effects_i {
+    0% {
+        color:#868585;
+        border: 3px solid #868585;
+        opacity: 1
+    }
+    
+     50% {
+        color:#00ff4e;
+        border: 3px solid #00ff4e;
+        opacity: .7
+    }
+    
+     75% {
+        color:#00ff4e;
+         border: 3px solid #00ff4e;
+        opacity: .8
+    }
+    
+     100% {
+        color:#00ff4e;
+         border: 3px solid #00ff4e;
+        opacity: 1
+    }
+}
+/*End animation effects*/
